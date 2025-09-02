@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f18eaca2.css",
+    "main.js": "/static/js/main.40752ee1.js",
+    "static/js/453.5e560239.chunk.js": "/static/js/453.5e560239.chunk.js",
+    "static/media/reactjs.png": "/static/media/reactjs.e46a1282dde1e8738691.png",
+    "static/media/css.png": "/static/media/css.c7f14d67180631e497d0.png",
+    "static/media/js.png": "/static/media/js.0de68882b70eb29a37ea.png",
+    "static/media/django.png": "/static/media/django.7a27c4b2e7fa0239b4b7.png",
+    "static/media/python.png": "/static/media/python.adb20ce3de949b320c5c.png",
+    "static/media/html5.png": "/static/media/html5.b9edf8d4df3f446ea843.png",
+    "static/media/expressjs.png": "/static/media/expressjs.40202d3ad1a2018d6a4b.png",
+    "static/media/mongodb.png": "/static/media/mongodb.92dac56e3ab63c975014.png",
+    "static/media/php.png": "/static/media/php.91aab52459e7eb5cbf98.png",
+    "static/media/Boot.png": "/static/media/Boot.254044d067685c2704b2.png",
+    "static/media/logo2.png": "/static/media/logo2.03d4545b5c70acb5e0f9.png",
+    "static/media/sql.png": "/static/media/sql.8dd92065ee2e899b8f82.png",
+    "static/media/nodejs.png": "/static/media/nodejs.77d62b06d14b5732b864.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.f18eaca2.css.map": "/static/css/main.f18eaca2.css.map",
+    "main.40752ee1.js.map": "/static/js/main.40752ee1.js.map",
+    "453.5e560239.chunk.js.map": "/static/js/453.5e560239.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f18eaca2.css",
+    "static/js/main.40752ee1.js"
+  ]
+}
