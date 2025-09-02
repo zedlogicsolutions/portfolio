@@ -2,9 +2,21 @@ import { useState, useEffect } from 'react'
 import './App.css'
 
 // image
-import karthi from '../Components/karthiraj.png'
-import pandi from '../Components/pandi.png'
-import venkad from '../Components/myimage.png'
+import html from '../Components/html5.png'
+import css from '../Components/css.png'
+import Bootstrap from '../Components/Boot.png'
+import js from '../Components/js.png'
+import reactjs from '../Components/reactjs.png'
+import python from '../Components/python.png'
+import django from '../Components/django.png'
+import nodejs from '../Components/nodejs.png'
+import expressjs from '../Components/expressjs.png'
+import php from '../Components/php.png'
+import sql from '../Components/sql.png'
+import mongodb from '../Components/mongodb.png'
+
+
+
 // logo
  import logo from '../Components/logo2.png'
 
@@ -54,7 +66,7 @@ function Main() {
   
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'services', 'team', 'why-choose', 'contact']
+      const sections = ['home', 'about', 'services', 'why-choose', 'contact']
       const scrollPosition = window.scrollY + 100
 
       for (const section of sections) {
@@ -129,27 +141,7 @@ function Main() {
       features: ['User Research', 'Wireframing', 'Prototyping', 'Usability Testing']
     }
   ]
-  const teamMembers = [
-    {
-      name: 'Thanga Pandi',
-      role: ['UI/UX Designer','&Webdesigner'],
-      image: pandi,
-      skills: ['Figma', 'Adobe XD', 'Prototyping','Wireframing','React Js','Django']
-    },
-    {
-      name: 'KarthiRaj',
-      role: ['Video Editor','&content Creator','&Graphic Designer'],
-      image: karthi,
-      skills: [ 'Content Strategy', 'Video Editing']
-    },
-    {
-      name: 'VenkadeshPandian',
-      role: ['Digital Marketing Manager','&SEO Specialist'],
-      image: venkad,
-      skills: ['Social Media', 'PPC', 'Email Marketing','Google Analytics', 'On-page SEO', 'Off-page SEO']
-    }
-  ]
-
+  
   const whyChooseReasons = [
     {
       title: 'Expert Team',
@@ -188,7 +180,7 @@ function Main() {
           </div>
           
           <ul className={`nav-menu ${mobileMenuOpen ? 'active' : ''}`}>
-            {['home', 'about', 'services', 'team', 'why-choose', 'contact'].map((item) => (
+            {['home', 'about', 'services','why-choose', 'contact'].map((item) => (
               <li key={item} className="nav-item">
                 <button
                   className={`nav-link ${activeSection === item ? 'active' : ''}`}
@@ -319,36 +311,29 @@ function Main() {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section id="team" className="team">
-        <div className="container">
-          <div className="section-header">
-            <h2>Our Team</h2>
-            <p>Meet the experts behind our success</p>
-          </div>
-          <div className="team-grid">
-            {teamMembers.map((member, index) => (
-              <div key={index} className="team-card">
-                <div className="member-image">
-                  <img src={member.image} alt={member.name} />
-                  <div className="member-overlay">
-                    <div className="member-skills">
-                      {member.skills.map((skill, i) => (
-                        <span key={i} className="skill-tag">{skill}</span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-                <div className="member-info">
-                  <h3>{member.name}</h3>
-                  <p>{member.role}</p>
-                </div>
-              </div>
-            ))}
+      {/* Image Scroll Section */}
+
+     <section id="image-scroll" className="image-scroll">
+        <div className="scroll-container">
+          <div className="scroll-content">
+            <img src={html} alt="html" />
+            <img src={css} alt="css" />
+              <img src={Bootstrap} alt="Bootstrap" />
+                <img src={js} alt="js" />
+                 <img src={reactjs} alt="reactjs" />
+                  <img src={python} alt="python" />
+                  <img src={django} alt="django" />
+                   <img src={nodejs} alt="nodejs" />
+                     <img src={expressjs} alt="nodejs" />
+                     <img src={php} alt="php" />
+                 <img src={sql} alt="php" />
+                 <img src={mongodb} alt="php" />
           </div>
         </div>
       </section>
 
+
+   
       {/* Why Choose Us Section */}
       <section id="why-choose" className="why-choose">
         <div className="container">
@@ -474,4 +459,7 @@ function Main() {
   );
 }
 
+
 export default Main;
+
+

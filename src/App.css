@@ -1,3 +1,49 @@
+/* Image Scroll Section */
+.image-scroll {
+  padding: 40px 0;
+  background: #f8f9fa;
+}
+
+.scroll-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.scroll-content {
+  display: inline-block;
+  animation: scroll-left 20s linear infinite;
+}
+
+.scroll-content img {
+  height: 120px;
+  margin: 0 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  25% {
+    transform: translateX(-25%);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+   75% {
+    transform: translateX(-75%);
+  }
+    100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
 .App {
   text-align: center;
 }
